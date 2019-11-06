@@ -1,10 +1,10 @@
 TweenMax.to('.name', 2, {
     delay: 1.5,
-    top:"20%",
+    top:"57%",
     // ease: Expo.easeInOut
 })
 
-// TweenMax.to(".name", 1, {x:100});
+TweenMax.to(".name", 1, {x:100});
 
 
 var t1 = new TimelineMax();
