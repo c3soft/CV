@@ -1,2 +1,6 @@
 logo cv couleur: Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 logo cv noir: Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+logo gitlab: <a href="https://iconscout.com/icons/gitlab" target="_blank">Gitlab Icon</a> by <a href="https://iconscout.com/contributors/icons8" target="_blank">Icons8</a>
+logo github: <a href="https://iconscout.com/icons/github" target="_blank">Github Icon</a> by <a href="https://iconscout.com/contributors/alexandru-stoica">Alexandru Stoica</a> on <a href="https://iconscout.com">Iconscout</a>
+logo linkedin: <a href="https://iconscout.com/icons/linkedin" target="_blank">Linkedin Icon</a> by <a href="https://iconscout.com/contributors/icons8" target="_blank">Icons8</a>
+logo pdf: <a href="https://iconscout.com/icons/file" target="_blank">File Icon</a> by <a href="https://iconscout.com/contributors/font-awesome">Font Awesome</a> on <a href="https://iconscout.com">Iconscout</a>

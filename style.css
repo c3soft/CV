@@ -1,10 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Lato:100');
+
 body{
+    --color-fond: #222a35 !important;
+    --logo: #eee;
+    --green: #24aa60;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.collapse{
-    display: flex;
-    justify-content: flex-end;
+/* ////////////////////////////////////////////// NAV /////////////////////////////////////////////////// */
+
+
+
+.opaque-navbar {
+    background-color: #222a35 !important;
+    height: 55px;
+    transition: background-color .5s ease 0s;
+    font-size: 120%;
+    padding-top: 2px;
+  }
+  /*  */
+  .opaque-navbar.opaque {
+    background-color: red !important;
+    height: 58px;
+    transition: background-color .5s ease 0s;
+  }
+
+ .navbar-brand{
+    color: #ececec !important;
+    font-family: Poppins;
+    font-size: 15px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2;
 }
+
+.collapse{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 15px;
+  font-family: Roboto;
+  font-weight: 100 !important;
+  margin-right: 40px;
+}
+
+ li a {
+    color: #ececec !important;
+
+  }
+  
+
+  
+  /* .navbar-toggler-icon {
+    color: #fff !important;
+
+    float: right;
+  } */
+  
+  /* .navbar-header {
+    background-color: rgb(20, 54, 207);
+    float: right;
+  } */
+  
+  .home {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--color-fond);
+  }
+  
+  .wrapper {
+    position: absolute;
+    width: 80vw;
+    top: 55%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    background-attachment: fixed;
+  }
+  /* .logo {
+    font-family: Poppins;
+    line-height: 80px;
+    margin-left: 2em;
+    color: var(--logo);
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+  } */
+  
+  h1.letters.name {
+    margin-bottom: 1.3em;
+  }
+  
+  .name {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 5em;
+    font-size: 4vw; 
+    margin-bottom: 0px;
+  }
+  
+  h1.ml7.text-wrapper {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 3px;
+  }
+  
+  .ml7 {
+    position: relative;
+    font-weight: 100;
+  }
+  
+  .ml7 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+  
+  }
+  
+  .ml7 .letter {
+    transform-origin: 0 100%;
+    display: inline-block;
+    line-height: 1em;
+    font-size: 5vw;
+  
+  }
+  
+  .about {
+    top: 900px;
+  }
+  
+  .menu {
+    position: absolute;
+    color: var(--green);
+    right: 2em;
+    top: 4px;
+    line-height: 80px;
+    z-index: 100;
+  }
+  
+  .menu ion-icon {
+    position: fixed;
+    font-size: 24px;
+  }
+  
+  .buttons {
+    margin-top: 60px;
+  }
+  
+  .btnContact {
+    background: var(--green);
+    border: none;
+    padding: 14px 30px;
+    color: #fff;
+    font-size: 12px !important;
+    letter-spacing: 4px;
+    font-weight: 300;
+  }
+  
+  .media {
+    position: absolute;
+    top: 38%;
+    right: 6%;
+    font-size: 1.5em;
+    overflow: visible;
+  }
+  .logo-media{
+    width: 20px;
+  }
+  
+  .media ul {
+    position: absolute;
+    list-style: none;
+  }
+  
+  .media ul li {
+    padding: 12px 0;
+    display: inline-block !important;
+    cursor: pointer;
+  }
+  
+  .copyright {
+    position: absolute;
+    z-index: 1;
+    color: grey;
+    font-size: 15px;
+    right: 0;
+    font-family: Roboto;
+    font-weight: 100;
+    margin-right: 2em;
+    bottom: 40px;
+  }
+
+
+
+  /*  */
+  .bgimg-2 {
+    background-image: url('img/route.jpg');
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.5;
+  }
+  
