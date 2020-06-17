@@ -52,13 +52,13 @@ $(window).scroll(function () {
   
   $(document).ready(function () {
     // ********************** ACCUEIL Vers question 1
-    $('#formation').on('click', function () {
+    $('#menu-formation').on('click', function () {
       //  if ($('#inputInfo1').val() != '' && $('#inputInfo2').val() != '') {
         //  $('.scrollTo2').attr('href', '#question3');
         //   $('.scrollTo').css({ cursor: 'pointer' });
           //------------------------------------------------
           const page = $(this).attr('href'); // Page cible
-          const speed = 650; // Durée de l'animation (en ms)
+          const speed = 350; // Durée de l'animation (en ms)
           $('html, body').animate({ scrollTop: $(page).offset().top }, speed); // Go
        // }
     
