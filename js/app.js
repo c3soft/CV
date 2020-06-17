@@ -12,7 +12,7 @@ $(window).scroll(function () {
     $(".intro, .header, .home").css({
       opacity: 1 - scrollPos / 1000
     });
-    if (scrollPos > 200) {
+    if (scrollPos > 1000) {
       $(".intro").css({});
     }
   }
@@ -72,3 +72,4 @@ $(window).scroll(function () {
         // }
       });
   })
+
