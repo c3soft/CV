@@ -51,25 +51,18 @@ $(window).scroll(function () {
   
   
   $(document).ready(function () {
-    // ********************** ACCUEIL Vers question 1
-    $('#menu-formation').on('click', function () {
-      //  if ($('#inputInfo1').val() != '' && $('#inputInfo2').val() != '') {
-        //  $('.scrollTo2').attr('href', '#question3');
-        //   $('.scrollTo').css({ cursor: 'pointer' });
-          //------------------------------------------------
-          const page = $(this).attr('href'); // Page cible
-          const speed = 350; // Durée de l'animation (en ms)
-          $('html, body').animate({ scrollTop: $(page).offset().top }, speed); // Go
-       // }
-    
-        // if ($('#question1').val() == '') {
-        //   $('.scrollTo1').attr('href', '#question1');
-        //   $('.scrollTo').css({ cursor: 'wait' });
-        //   //-----------------------------------------------
-        //   const page = $(this).attr('href'); // Page cible
-        //   const speed = 750; // Durée de l'animation (en ms)
-        //   $('html, body').animate({ scrollTop: $(page).offset().top }, speed); // Go
-        // }
-      });
-  })
+    // $('.nav-formation').on('click', function () {
+    //       const page = $(this).attr('href'); // Page cible
+    //       const speed = 350; // Durée de l'animation (en ms)
+    //       $('html, body').animate({ scrollTop: $(page).offset().top }, speed); // Go
+    //   });
+    $('.nav-formation').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+
+
+  });
 
