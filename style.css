@@ -272,8 +272,8 @@ h1.ml7.text-wrapper {
   }
 
   .logo-techno{
-      width: 2rem;
-      height: 2rem;
+      width: 10px !important;
+      height: 10px !important;
   }
   .social{
       display: flex;
