@@ -21,7 +21,7 @@ body {
 }
 
 .opaque-navbar.opaque {
-    background-color: #24aa60 !important;
+    background-color: #404040 !important;
     height: 58px;
     transition: background-color .5s ease 0s;
 }
@@ -209,11 +209,9 @@ h1.ml7.text-wrapper {
 
 .media ul li {
     padding: 12px 0;
-    /* display: inline-block !important; */
     cursor: pointer;
 }
 
-/* copyright */
 .copyright {
     position: absolute;
     z-index: 1;
@@ -226,10 +224,19 @@ h1.ml7.text-wrapper {
     bottom: 40px;
 }
 
-/* ////////////////////////////////////////////// FORMATION /////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////// SCHOOL /////////////////////////////////////////////////// */
+.title-section {
+    padding-top: 5%;
+    padding-bottom: 4%;
+    font: 20px "Oswald", sans-serif;
+    letter-spacing: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
 
 .bgimg-1 {
     background-image: url('img/school.jpeg');
+    width: 100%;
     min-height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -237,8 +244,14 @@ h1.ml7.text-wrapper {
     opacity: 0.5;
 }
 
-.about {
-    top: 900px;
+
+
+.years{
+    font-weight: bold;
+}
+
+.step{
+    border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 /* ////////////////////////////////////////////// EXPERIENCES /////////////////////////////////////////////////// */
@@ -278,9 +291,10 @@ h1.ml7.text-wrapper {
   }
 
   .logos-techno{
-      width: 100px !important;
-      height: 100px !important;
+      width: 70px !important;
+      height: 70px !important;
       margin: 0 20px;
+      opacity: .7;
   }
   .social{
       display: flex;
