@@ -308,14 +308,6 @@ h1.ml7.text-wrapper {
     padding-bottom: 20%;
   }
   
-
-
-
-
-
-
-
-
 /* /////////////////////////////////// CONTACT //////////////////// */
 .contact-title {
     padding-top: 5%;
@@ -357,7 +349,7 @@ h1.ml7.text-wrapper {
   }
   
   .contact-feature {
-      width: 100%;
+    width: 100%;
     font: 12px 'Montserrat', sans-serif;
     color: #404040;
     letter-spacing: 1.5px;
