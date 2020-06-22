@@ -8,6 +8,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: #000; */
+    
 }
 /* body {
     --color-fond: #222a35 !important;
@@ -133,8 +135,7 @@ h1.letters.name {
     font-family: 'Lato', sans-serif;
     font-weight: 100;
     font-size: 4rem;
-    /* font-size: 3.5vw;  */
-    margin-bottom: 0px;
+    margin-bottom: 135px;
 }
 
 h1.ml7.text-wrapper {
@@ -236,7 +237,8 @@ h1.ml7.text-wrapper {
 .title-section {
     padding-top: 5%;
     padding-bottom: 4%;
-    font: 20px "Oswald", sans-serif;
+    font-size: 30px;
+    font-family:  "Oswald", sans-serif;
     letter-spacing: 18px;
     text-transform: uppercase;
     text-align: center;
@@ -463,6 +465,24 @@ box-shadow: 9px 9px 31px -7px rgba(0,0,0,0.83);
 }
 
 /* /////////////////////////////////////////////////////// MEDIA QUERY ///////////////////////////////////////////////////////// */
+@media screen and (max-width:520px){
+    .title-section{
+        font-size: 15px;
+        font-weight: 900;
+        letter-spacing: 8px;
+    }
+    .wrapper{
+        left: 46%;
+    }
+    .name{
+        font-size: 3rem;
+        margin-bottom: 80px;
+    }
+    .ml7 .letter{
+        font-size: 2.5rem;
+    }
+}
+
 @media screen and (max-width: 1300px) {
 
     .ligne {
@@ -477,3 +497,4 @@ box-shadow: 9px 9px 31px -7px rgba(0,0,0,0.83);
     }
 
 }
+
