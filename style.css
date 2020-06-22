@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 @import url('https://fonts.googleapis.com/css?family=Lato:100');
 
-body {
+*, ::before, ::after{
     --color-fond: #222a35 !important;
     --logo: #eee;
     --green: #24aa60;
@@ -9,6 +9,14 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+/* body {
+    --color-fond: #222a35 !important;
+    --logo: #eee;
+    --green: #24aa60;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
 
 /* ////////////////////////////////////////////// NAV /////////////////////////////////////////////////// */
 
@@ -181,7 +189,7 @@ h1.ml7.text-wrapper {
     outline: none;
   }
 
-/* Button media */
+/* Buttons media */
 .media {
     display: flex;
     flex-direction: column;
@@ -244,8 +252,6 @@ h1.ml7.text-wrapper {
     opacity: 0.5;
 }
 
-
-
 .years{
     font-weight: bold;
 }
@@ -255,6 +261,82 @@ h1.ml7.text-wrapper {
 }
 
 /* ////////////////////////////////////////////// EXPERIENCES /////////////////////////////////////////////////// */
+.box-timline{
+    width: 100%;
+    position: relative;
+    padding: 80px 0 250px 0; 
+}
+
+.ligne{
+    height: 1000px;
+    margin-bottom: 30px !important;
+    width: 8px;
+    margin: 0 auto;
+    background-color: var(--green);
+}
+
+.rond{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--color-fond);
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    -webkit-box-shadow: 9px 9px 31px -7px rgba(0,0,0,0.83);
+-moz-box-shadow: 9px 9px 31px -7px rgba(0,0,0,0.83);
+box-shadow: 9px 9px 31px -7px rgba(0,0,0,0.83);
+}
+
+.r1{margin-top: 0px;}
+
+.r2{margin-top: 286px;}
+
+.r3{margin-top: 600px;}
+
+.r4{margin-top:940px;}
+
+.experience-logo{
+    width: 3rem;
+    
+}
+
+.box{
+    position: absolute;
+    color:#333;
+    width: 400px;
+    min-height: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    height: auto;
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+}
+
+.b1{
+    margin-top: 0px;
+    left: calc(50% - 610px)
+}
+
+.b2{
+    margin-top: 286px;
+    left: calc(50% + 230px)
+}
+
+.b3{
+    margin-top: 600px;
+    left: calc(50% - 610px)
+}
+
+.b4{
+    margin-top:940px;
+    left: calc(50% + 230px)
+}
+/* ////////////////////////////////////////////// COMMUN /////////////////////////////////////////////////// */
 
 .bgimg-2 {
     background-image: url('img/route.jpg');
@@ -264,8 +346,6 @@ h1.ml7.text-wrapper {
     background-attachment: fixed;
     opacity: 0.5;
 }
-/* ////////////////////////////////////////////// EXPERIENCES /////////////////////////////////////////////////// */
-
 .bgimg-3 {
     background-image: url('img/skills.jpeg');
     min-height: 400px;
@@ -274,7 +354,7 @@ h1.ml7.text-wrapper {
     background-attachment: fixed;
     opacity: 0.5;
 }
-/* ////////////////////////////////////////////// EXPERIENCES /////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////// SKILLS /////////////////////////////////////////////////// */
 
 .choose {
     padding-top: 10%;
@@ -380,4 +460,20 @@ h1.ml7.text-wrapper {
     background-repeat: no-repeat;
     background-attachment: fixed;
     opacity: 0.5;
+}
+
+/* /////////////////////////////////////////////////////// MEDIA QUERY ///////////////////////////////////////////////////////// */
+@media screen and (max-width: 1300px) {
+
+    .ligne {
+        position: relative;
+        left: 200px;
+    }
+    .rond {
+        left: calc(50% + 200px);
+    }
+    .box {
+        left: calc(50% - 280px)
+    }
+
 }
