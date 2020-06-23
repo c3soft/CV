@@ -5,6 +5,7 @@
     --color-fond: #222a35 !important;
     --logo: #eee;
     --green: #24aa60;
+    --grey-title: #727272;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -176,7 +177,6 @@ h1.ml7.text-wrapper {
 } 
 
 .btnContact {
-    margin-top: 60px;
     border-radius: 1px;
     background: var(--green);
     border: none;
@@ -230,7 +230,7 @@ h1.ml7.text-wrapper {
     font-family: Roboto;
     font-weight: 100;
     margin-right: 2em;
-    bottom: 40px;
+    bottom: 20px;
 }
 
 /* ////////////////////////////////////////////// SCHOOL /////////////////////////////////////////////////// */
@@ -256,10 +256,23 @@ h1.ml7.text-wrapper {
 
 .years{
     font-weight: bold;
+    color: var(--green);
+}
+
+.title-formation{
+    font-weight: bold;
+    color: var(--grey-title);
+}
+
+.logos-formation{
+    width: 1rem;
 }
 
 .step{
-    border-bottom: 1px solid rgb(226, 226, 226);
+    margin-bottom: 2rem;
+    -webkit-box-shadow: 0px 9px 12px 0px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 9px 12px 0px rgba(0,0,0,0.19);
+    box-shadow: 0px 9px 12px 0px rgba(0,0,0,0.19);
 }
 
 /* ////////////////////////////////////////////// EXPERIENCES /////////////////////////////////////////////////// */
@@ -455,9 +468,10 @@ box-shadow: 9px 9px 31px -7px rgba(0,0,0,0.83);
   
   }
 
-  .bgimg-2 {
+  .bgimg-4 {
     background-image: url('img/contact.jpeg');
     min-height: 400px;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
