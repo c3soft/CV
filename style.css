@@ -225,10 +225,22 @@ h1.ml7.text-wrapper {
 }
 
 /* ////////////////////////////////////////////// SCHOOL /////////////////////////////////////////////////// */
+.bgimg-1 {
+    background-image: url('img/school.jpeg');
+    background-position: center;
+    /* width: 643px;
+    margin: auto; */
+    width: 100%;
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    opacity: 0.5;
+}
 .container-formations{
     /* display: flex !important;
     flex-wrap: wrap !important; */
-    height: 80vh;
+    height: auto;
 }
 .title-section {
     padding-top: 5%;
@@ -238,16 +250,6 @@ h1.ml7.text-wrapper {
     letter-spacing: 18px;
     text-transform: uppercase;
     text-align: center;
-}
-
-.bgimg-1 {
-    background-image: url('img/school.jpeg');
-    width: 100%;
-    min-height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    opacity: 0.5;
 }
 
 .years{
@@ -276,6 +278,15 @@ h1.ml7.text-wrapper {
 }
 
 /* ////////////////////////////////////////////// EXPERIENCES /////////////////////////////////////////////////// */
+.bgimg-2 {
+    background-image: url('img/route.jpg');
+    background-position: center;
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.5;
+}
 .box-timline{
     width: 100%;
     position: relative;
@@ -317,7 +328,6 @@ h1.ml7.text-wrapper {
 
 .experience-logo{
     width: 3rem;
-    
 }
 
 .box{
@@ -369,26 +379,18 @@ h1.ml7.text-wrapper {
 .logo-entreprise-68{
     width: 3.5rem;
 }
-/* ////////////////////////////////////////////// COMMUN /////////////////////////////////////////////////// */
 
-.bgimg-2 {
-    background-image: url('img/route.jpg');
-    min-height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    opacity: 0.5;
-}
+/* ////////////////////////////////////////////// SKILLS /////////////////////////////////////////////////// */
 .bgimg-3 {
     background-image: url('img/skills.jpeg');
+    background-position: center;
+
     min-height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     opacity: 0.5;
 }
-/* ////////////////////////////////////////////// SKILLS /////////////////////////////////////////////////// */
-
 .choose {
     padding-top: 10%;
     padding-bottom: 7%;
@@ -436,6 +438,16 @@ h1.ml7.text-wrapper {
   }
   
 /* /////////////////////////////////// CONTACT //////////////////// */
+.bgimg-4 {
+    background-image: url('img/contaact.jpeg');
+    background-position: center;
+    min-height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.5;
+}
 .contact-title {
     padding-top: 5%;
     padding-bottom: 6%;
@@ -486,15 +498,7 @@ h1.ml7.text-wrapper {
   
   }
 
-  .bgimg-4 {
-    background-image: url('img/contact.jpeg');
-    min-height: 400px;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    opacity: 0.5;
-}
+
 
 /* /////////////////////////////////////////////////////// MEDIA QUERY ///////////////////////////////////////////////////////// */
 @media screen and (max-width:575px){
@@ -512,6 +516,10 @@ h1.ml7.text-wrapper {
     }
     .ml7 .letter{
         font-size: 2.3rem;
+    }
+
+    .media{
+        top: 13%;
     }
     .step{
         display: flex;
