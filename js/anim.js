@@ -12,26 +12,26 @@
             ease: Expo.easeInOut
       });
 
-      TweenMax.from(".contact", 3, {
-            delay: 1.1,
-            opacity: 0,
-            y: 20,
-            ease: Expo.easeInOut
-      });
+      // TweenMax.from(".contact", 3, {
+      //       delay: 1.1,
+      //       opacity: 0,
+      //       y: 20,
+      //       ease: Expo.easeInOut
+      // });
 
-      TweenMax.from(".options", 3, {
-            delay: 1.1,
-            opacity: 0,
-            y: 20,
-            ease: Expo.easeInOut
-      });
+      // TweenMax.from(".options", 3, {
+      //       delay: 1.1,
+      //       opacity: 0,
+      //       y: 20,
+      //       ease: Expo.easeInOut
+      // });
 
-      TweenMax.from(".bottom-text", 3, {
-            delay: 1.3,
-            opacity: 0,
-            y: 20,
-            ease: Expo.easeInOut
-      });
+      // TweenMax.from(".bottom-text", 3, {
+      //       delay: 1.3,
+      //       opacity: 0,
+      //       y: 20,
+      //       ease: Expo.easeInOut
+      // });
 
       TweenMax.from(".copyright", 3, {
             delay: 1.5,
@@ -68,12 +68,12 @@
       //       ease: Expo.easeInOut
       // });
 
-      TweenMax.from("#one", 3, {
-            delay: 1,
-            opacity: 0,
-            y: 20,
-            ease: Expo.easeInOut
-      });
+      // TweenMax.from("#one", 3, {
+      //       delay: 1,
+      //       opacity: 0,
+      //       y: 20,
+      //       ease: Expo.easeInOut
+      // });
 
       TweenMax.from(".btnContact", 3, {
             delay: 1.3,

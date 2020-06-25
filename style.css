@@ -113,7 +113,7 @@ li a {
     position: absolute;
     width: 80vw;
     top: 50%;
-    left: 57%;
+    left: 47%;
     transform: translate(-50%, -50%);
     background-attachment: fixed;
 }
@@ -298,8 +298,8 @@ h1.ml7.text-wrapper {
     align-items: center;
     font-size: 40px;
     -webkit-box-shadow: 9px 9px 31px -7px rgba(0,0,0,0.83);
--moz-box-shadow: 9px 9px 31px -7px rgba(0,0,0,0.83);
-box-shadow: 9px 9px 31px -7px rgba(0,0,0,0.83);
+    -moz-box-shadow: 9px 9px 31px -7px rgba(0,0,0,0.83);
+    box-shadow: 9px 9px 31px -7px rgba(0,0,0,0.83);
 }
 
 .r1{margin-top: 0px;}
@@ -318,7 +318,7 @@ box-shadow: 9px 9px 31px -7px rgba(0,0,0,0.83);
 .box{
     position: absolute;
     color:#333;
-    width: 400px;
+    width: 30rem;
     min-height: 200px;
     padding: 20px;
     border-radius: 5px;
@@ -329,25 +329,25 @@ box-shadow: 9px 9px 31px -7px rgba(0,0,0,0.83);
 
 .b1{
     margin-top: 0px;
-    left: calc(50% - 610px)
+    left: calc(50% - 580px)
 }
 
 .b2{
     margin-top: 286px;
-    left: calc(50% + 230px)
+    left: calc(50% + 110px)
 }
 
 .b3{
     margin-top: 600px;
-    left: calc(50% - 610px)
+    left: calc(50% - 580px)
 }
 
 .b4{
     margin-top:940px;
-    left: calc(50% + 230px)
+    left: calc(50% + 110px)
 }
 
-.box p:nth-child(4){
+.box p:nth-child(3){
     color: red;
     font-weight: 700;
     font-family: 'lato' sans-serif;
@@ -502,7 +502,7 @@ box-shadow: 9px 9px 31px -7px rgba(0,0,0,0.83);
         left: 46%;
     }
     .name{
-        font-size: 3rem;
+        font-size: 2rem;
         margin-bottom: 80px;
     }
     .ml7 .letter{
@@ -520,7 +520,7 @@ box-shadow: 9px 9px 31px -7px rgba(0,0,0,0.83);
         left: calc(50% + 200px);
     }
     .box {
-        left: calc(50% - 280px)
+        left: calc(50% - 400px)
     }
 
 }
