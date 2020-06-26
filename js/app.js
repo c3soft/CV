@@ -16,38 +16,12 @@ function Parallax() {
     $(".intro").css({});
   }
 }
-//
 
 $(document).ready(function () {
   $(window).scroll(function () {
     Parallax();
   });
 });
-
-// hover links to black //
-
-// $(window).scroll(function () {
-//   var height = $(window).scrollTop();
-//   if (height > 200) {
-//     $(".switch-text").hover(
-//       function () {
-//         $(this).css("color", "#000");
-//       },
-//       function () {
-//         $(this).css("color", "#9d9d9d");
-//       }
-//     );
-//   } else {
-//     $(".switch-text").hover(
-//       function () {
-//         $(this).css("color", "#FFF");
-//       },
-//       function () {
-//         $(this).css("color", "#9d9d9d");
-//       }
-//     );
-//   }
-// });
 
 
 $(document).ready(function () {
@@ -59,39 +33,38 @@ $(document).ready(function () {
     }, speed); // Go
     return false;
   });
-  $('.nav-job').on('click', function () { // Au clic sur un élément
-    var page = $(this).attr('href'); // Page cible
-    var speed = 750; // Durée de l'animation (en ms)
+  $('.nav-job').on('click', function () {
+    var page = $(this).attr('href');
+    var speed = 750;
     $('html, body').animate({
       scrollTop: $(page).offset().top
-    }, speed); // Go
+    }, speed);
     return false;
   });
-  $('.nav-skills').on('click', function () { // Au clic sur un élément
-    var page = $(this).attr('href'); // Page cible
-    var speed = 750; // Durée de l'animation (en ms)
+  $('.nav-skills').on('click', function () {
+    var page = $(this).attr('href');
+    var speed = 750;
     $('html, body').animate({
       scrollTop: $(page).offset().top
-    }, speed); // Go
+    }, speed);
     return false;
   });
-  $('.nav-contact').on('click', function () { // Au clic sur un élément
-    var page = $(this).attr('href'); // Page cible
-    var speed = 750; // Durée de l'animation (en ms)
+  $('.nav-contact').on('click', function () {
+    var page = $(this).attr('href');
+    var speed = 750;
     $('html, body').animate({
       scrollTop: $(page).offset().top
-    }, speed); // Go
-    return false;
-  });
-
-  $('.btnContactDirect').on('click', function () { // Au clic sur un élément
-    var page = $(this).attr('href'); // Page cible
-    var speed = 750; // Durée de l'animation (en ms)
-    $('html, body').animate({
-      scrollTop: $(page).offset().top
-    }, speed); // Go
+    }, speed);
     return false;
   });
 
+  $('.btnContactDirect').on('click', function () {
+    var page = $(this).attr('href');
+    var speed = 750;
+    $('html, body').animate({
+      scrollTop: $(page).offset().top
+    }, speed);
+    return false;
+  });
 
 });
