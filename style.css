@@ -439,7 +439,7 @@ h1.ml7.text-wrapper {
   
 /* /////////////////////////////////// CONTACT //////////////////// */
 .bgimg-4 {
-    background-image: url('img/contaact.jpeg');
+    background-image: url('img/contact.jpeg');
     background-position: center;
     min-height: 400px;
     width: 100%;
@@ -532,13 +532,13 @@ h1.ml7.text-wrapper {
 
     .ligne {
         position: relative;
-        left: 200px;
+        left: 400px;
     }
     .rond {
-        left: calc(50% + 200px);
+        left: calc(50% + 400px);
     }
     .box {
-        left: calc(50% - 400px)
+        left: calc(50% - 200px)
     }
 
     
