@@ -66,7 +66,7 @@ allBoxes.forEach(box =>{
                         reverse: true
                   })
                   .setTween(tween)
-                  .addIndicators()
+                  //.addIndicators()
                   .addTo(controller)
             }
       }

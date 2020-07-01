@@ -379,8 +379,14 @@ h1.ml7.text-wrapper {
     height: auto;
 }
 
+.logo-entreprise-cebal{
+    width: 8rem;
+    height: auto;
+}
+
 .logo-entreprise-68{
     width: 3.5rem;
+    height: auto;
 }
 
 /* ////////////////////////////////////////////// SKILLS /////////////////////////////////////////////////// */
@@ -510,6 +516,10 @@ h1.ml7.text-wrapper {
 
 /* /////////////////////////////////////////////////////// MEDIA QUERY ///////////////////////////////////////////////////////// */
 @media screen and (max-width:575px){
+    .collapse{
+        background-color: #404040;
+        margin: 0;
+    }
     .title-section{
         font-size: 15px;
         font-weight: 900;
@@ -540,45 +550,50 @@ h1.ml7.text-wrapper {
         margin: 5px 5px;
         opacity: .7;
     }
+
+    .logo-entreprise-cebal{
+        width: 5rem;
+        height: 2rem;
+    }
     .bgimg-1 {
         background-image: url('img/schoolm.jpg');
         /* background-position: center; */
         width: 100%;
-        min-height: 200px;
-        background-size: 100vw;
-        background-repeat: no-repeat;
+        min-height: 400px;
+         /* background-size: 150vw; 
+       background-repeat: no-repeat;
         background-attachment: fixed;
-        opacity: 0.5;
+        opacity: 0.5;*/
     }
     .bgimg-2 {
         background-image: url('img/routem.jpg');
         /* background-position: center; */
         width: 100%;
-        min-height: 200px;
-        background-size: 100vw;
+        min-height: 400px;
+        /* background-size: 100vw; 
         background-repeat: no-repeat;
         background-attachment: fixed;
-        opacity: 0.5;
+        opacity: 0.5;*/
     }
     .bgimg-3 {
         background-image: url('img/skillsm.jpg');
         /* background-position: center; */
         width: 100%;
-        min-height: 300px;
-        /* background-size: 100vw; */
+        min-height: 400px;
+        /* background-size: 100vw; 
         background-repeat: no-repeat;
         background-attachment: fixed;
-        opacity: 0.5;
+        opacity: 0.5;*/
     }
     .bgimg-4 {
         background-image: url('img/contactm.jpg');
         /* background-position: center; */
         width: 100%;
         min-height: 400px;
-        /* background-size: 100vw; */
+        /* background-size: 100vw; 
         background-repeat: no-repeat;
         background-attachment: fixed;
-        opacity: 0.5;
+        opacity: 0.5;*/
     }
 }
 
