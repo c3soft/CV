@@ -27,7 +27,7 @@ $(document).ready(function () {
 $(document).ready(function () {
   $('.nav-school').on('click', function () { // Au clic sur un élément
     var page = $(this).attr('href'); // Page cible
-    var speed = 750; // Durée de l'animation (en ms)
+    var speed = 2250; // Durée de l'animation (en ms)
     $('html, body').animate({
       scrollTop: $(page).offset().top
     }, speed); // Go
@@ -35,7 +35,7 @@ $(document).ready(function () {
   });
   $('.nav-job').on('click', function () {
     var page = $(this).attr('href');
-    var speed = 750;
+    var speed = 2250;
     $('html, body').animate({
       scrollTop: $(page).offset().top
     }, speed);
@@ -43,7 +43,7 @@ $(document).ready(function () {
   });
   $('.nav-skills').on('click', function () {
     var page = $(this).attr('href');
-    var speed = 750;
+    var speed = 2250;
     $('html, body').animate({
       scrollTop: $(page).offset().top
     }, speed);
@@ -51,20 +51,20 @@ $(document).ready(function () {
   });
   $('.nav-contact').on('click', function () {
     var page = $(this).attr('href');
-    var speed = 750;
+    var speed = 2250;
     $('html, body').animate({
       scrollTop: $(page).offset().top
     }, speed);
     return false;
   });
 
-  $('.btnContactDirect').on('click', function () {
-    var page = $(this).attr('href');
-    var speed = 750;
-    $('html, body').animate({
-      scrollTop: $(page).offset().top
-    }, speed);
-    return false;
-  });
+  // $('.btnContactDirect').on('click', function () {
+  //   var page = $(this).attr('href');
+  //   var speed = 750;
+  //   $('html, body').animate({
+  //     scrollTop: $(page).offset().top
+  //   }, speed);
+  //   return false;
+  // });
 
 });

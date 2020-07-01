@@ -30,7 +30,7 @@
 
 .navbar-brand {
     color: #ececec !important;
-    font-family: Poppins;
+    font-family: 'lato' sans-serif;
     font-size: 15px;
     letter-spacing: 5px;
     font-weight: bold;
@@ -365,7 +365,7 @@ h1.ml7.text-wrapper {
 }
 
 .box p:nth-child(3){
-    color: red;
+    color:  var(--color-fond);
     font-weight: 700;
     font-family: 'lato' sans-serif;
 }
@@ -515,8 +515,46 @@ h1.ml7.text-wrapper {
   }
 
 /* /////////////////////////////////////////////////////// MEDIA QUERY ///////////////////////////////////////////////////////// */
+@media (max-width: 123px) { 
+    .navbar-header {
+    float: none;
+    }
+    .navbar-toggle {
+    display: block;
+    }
+    .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+    display: none!important;
+    }
+    .navbar-nav {
+    float: none!important;
+    margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+    float: none;
+    }
+    .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    .navbar-text {
+    float: none;
+    margin: 15px 0;
+    }
+    .navbar-collapse.collapse.in {
+    display: block!important;
+    }
+    .collapsing {
+    overflow: hidden!important;
+    }
+    }
+
 @media screen and (max-width:575px){
     .collapse{
+        flex-direction: column;
         background-color: #404040;
         margin: 0;
     }
@@ -560,61 +598,39 @@ h1.ml7.text-wrapper {
         /* background-position: center; */
         width: 100%;
         min-height: 400px;
-         /* background-size: 150vw; 
-       background-repeat: no-repeat;
-        background-attachment: fixed;
-        opacity: 0.5;*/
     }
     .bgimg-2 {
         background-image: url('img/routem.jpg');
         /* background-position: center; */
         width: 100%;
         min-height: 400px;
-        /* background-size: 100vw; 
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        opacity: 0.5;*/
     }
     .bgimg-3 {
         background-image: url('img/skillsm.jpg');
         /* background-position: center; */
         width: 100%;
         min-height: 400px;
-        /* background-size: 100vw; 
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        opacity: 0.5;*/
     }
     .bgimg-4 {
         background-image: url('img/contactm.jpg');
         /* background-position: center; */
         width: 100%;
         min-height: 400px;
-        /* background-size: 100vw; 
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        opacity: 0.5;*/
     }
 }
 
 @media screen and (max-width: 1300px) {
 
     .ligne {
-        /* position: relative;
-        left: 19rem; */
         display: none;
     }
     .rond {
-        /* left: calc(50% + 19rem); */
         display: none;
     }
     .box {
         position: relative;
         left: 0;
-    margin-top:10px;
-
-       /*  margin-left: 10px;
-        width: 80%; */
+        margin-top:10px;
     }
     
 
