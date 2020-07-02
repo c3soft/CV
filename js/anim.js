@@ -1,4 +1,3 @@
-
 TweenMax.from(".name", 3, {
       delay: 1,
       opacity: 0,

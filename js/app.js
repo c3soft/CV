@@ -32,6 +32,7 @@ $(document).ready(function () {
       scrollTop: $(page).offset().top
     }, speed); // Go
     return false;
+
   });
   $('.nav-job').on('click', function () {
     var page = $(this).attr('href');
@@ -58,13 +59,7 @@ $(document).ready(function () {
     return false;
   });
 
-  // $('.btnContactDirect').on('click', function () {
-  //   var page = $(this).attr('href');
-  //   var speed = 750;
-  //   $('html, body').animate({
-  //     scrollTop: $(page).offset().top
-  //   }, speed);
-  //   return false;
-  // });
-
+$('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});
 });
