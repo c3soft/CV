@@ -450,6 +450,82 @@ h1.ml7.text-wrapper {
     padding-bottom: 20%;
   }
   
+/* /////////////////////////////////// WORK //////////////////// */
+.bgimg-5 {
+    background-image: url('img/work.jpeg');
+    background-position: center;
+    min-height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.5;
+}
+
+li{
+    list-style: none;
+  }
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .f1_container {
+    position: relative;
+    margin: 50px;
+    width: 300px;
+    height: 270px;
+    z-index: 1;
+    perspective: 1000;
+    border-radius: 7px;
+   
+  }
+  
+.title-cards{
+    text-align: center;
+  }
+
+  .img-cards{
+    width: 300px;
+    height: 230px;
+  }
+  
+  .f1_card {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all .5s linear;
+  }
+  
+  .f1_container:hover .f1_card {
+    transform: rotateY(180deg);
+}
+
+.face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: #49494e;
+    backface-visibility: hidden;
+    -webkit-box-shadow: 9px 9px 12px 0px rgba(0,0,0,0.19);
+    -moz-box-shadow: 9px 9px 12px 0px rgba(0,0,0,0.19);
+    box-shadow: 9px 9px 12px 0px rgba(0,0,0,0.19);
+}
+  
+  .face.back {
+    display: block;
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: #aaa;
+  }
+  
+  
 /* /////////////////////////////////// CONTACT //////////////////// */
 .bgimg-4 {
     background-image: url('img/contact.jpeg');
