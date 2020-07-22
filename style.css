@@ -690,6 +690,11 @@ h1.ml7.text-wrapper {
         width: 5rem;
         height: 2rem;
     }
+
+    .logo-entreprise-68{
+        width: 3rem;
+        height: auto;
+    }
     .bgimg-1 {
         background-image: url('img/schoolm.jpg');
         /* width: 100%; */
