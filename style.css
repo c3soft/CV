@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
-@import url('https://fonts.googleapis.com/css?family=Lato:100');
+/* @import url('https://fonts.googleapis.com/css?family=Lato:100'); */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
-*, ::before, ::after{
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+*, ::before, ::after{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
     --color-fond: #222a35 !important;
     --logo: #eee;
     --green: #24aa60;
     --grey-title: #727272;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 /* ////////////////////////////////////////////// NAV /////////////////////////////////////////////////// */
@@ -30,7 +34,7 @@
 
  .navbar-brand {
     color: #ececec !important;
-    font-family: 'lato' sans-serif !important;
+    font-family: 'Lato', sans-serif !important;
     font-size: 15px;
     letter-spacing: 5px;
     font-weight: 100;
@@ -229,7 +233,7 @@ h1.ml7.text-wrapper {
 
 /* ////////////////////////////////////////////// SCHOOL /////////////////////////////////////////////////// */
 .bgimg-1 {
-    background-image: url('img/school.jpeg');
+    background-image: url('./img/school.jpeg');
     background-position: center;
     width: 100%;
     min-height: 400px;
@@ -372,7 +376,7 @@ h1.ml7.text-wrapper {
 .box p:nth-child(3){
     color:  var(--color-fond);
     font-weight: 700;
-    font-family: 'lato' sans-serif;
+    font-family: 'Lato', sans-serif !important;
 }
 
 .logo-entreprise-arc{
@@ -480,13 +484,14 @@ h1.ml7.text-wrapper {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center; */
+    margin: 1.5rem 2rem 1.5rem 2rem;
     /* position: relative; */
     list-style: none;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     width: 300px;
     height: 270px;
     z-index: 1;
-    perspective: 1000;
+    /* perspective: 1000 !important; */
     
 }
 
@@ -684,24 +689,28 @@ h1.ml7.text-wrapper {
     .bgimg-1 {
         background-image: url('img/schoolm.jpg');
         width: 100%;
-        min-height: 400px;
+        min-height: 200px;
+        background-size: contain;
     }
     .bgimg-2 {
         background-image: url('img/routem.jpg');
         width: 100%;
         min-height: 400px;
+        background-size: contain;
     }
     .bgimg-3 {
         background-image: url('img/skillsm.jpg');
 
         width: 100%;
         min-height: 400px;
+        background-size: contain;
     }
     .bgimg-4 {
         background-image: url('img/contactm.jpg');
 
         width: 100%;
         min-height: 400px;
+        background-size: contain;
     }
 
     .bgimg-5 {
@@ -709,6 +718,7 @@ h1.ml7.text-wrapper {
 
         width: 100%;
         min-height: 400px;
+        background-size: contain;
     }
 }
 
