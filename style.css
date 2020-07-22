@@ -491,7 +491,7 @@ h1.ml7.text-wrapper {
     width: 300px;
     height: 270px;
     z-index: 1;
-    /* perspective: 1000 !important; */
+    perspective: 1000 !important;
     
 }
 
@@ -509,6 +509,10 @@ h1.ml7.text-wrapper {
     height: 100%;
     transform-style: preserve-3d;
     transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    -o-transition: all .5s linear;
 }
 
 .f1_container:hover .f1_card {
@@ -688,7 +692,7 @@ h1.ml7.text-wrapper {
     }
     .bgimg-1 {
         background-image: url('img/schoolm.jpg');
-        width: 100%;
+        /* width: 100%; */
         min-height: 400px;
     }
     .bgimg-2 {
