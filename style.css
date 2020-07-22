@@ -689,28 +689,24 @@ h1.ml7.text-wrapper {
     .bgimg-1 {
         background-image: url('img/schoolm.jpg');
         width: 100%;
-        min-height: 200px;
-        background-size: contain;
+        min-height: 400px;
     }
     .bgimg-2 {
         background-image: url('img/routem.jpg');
         width: 100%;
         min-height: 400px;
-        background-size: contain;
     }
     .bgimg-3 {
         background-image: url('img/skillsm.jpg');
 
         width: 100%;
         min-height: 400px;
-        background-size: contain;
     }
     .bgimg-4 {
         background-image: url('img/contactm.jpg');
 
         width: 100%;
         min-height: 400px;
-        background-size: contain;
     }
 
     .bgimg-5 {
@@ -718,7 +714,6 @@ h1.ml7.text-wrapper {
 
         width: 100%;
         min-height: 400px;
-        background-size: contain;
     }
 }
 
