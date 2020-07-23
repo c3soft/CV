@@ -63,3 +63,10 @@ $('.navbar-collapse a').click(function(){
     $(".navbar-collapse").collapse('hide');
 });
 });
+
+
+/* card flip */
+$(".flipCard").click(function(){
+  $(this).find(".card").toggleClass("flipped");
+  return false;
+});
