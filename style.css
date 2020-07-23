@@ -697,9 +697,18 @@ h1.ml7.text-wrapper {
     }
     .bgimg-1 {
         background-image: url('./img/schoolm.jpg');
-        width: 100%;
+        /* width: 100%;
         max-width: 575px;
+        min-height: 400px; */
+
+
+        background-position: center;
         min-height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        opacity: 0.5;
+    
     }
     .bgimg-2 {
         background-image: url('./img/routem.jpg');
