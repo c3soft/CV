@@ -492,6 +492,10 @@ h1.ml7.text-wrapper {
     height: 270px;
     z-index: 1;
     perspective: 1000px !important;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    -ms-perspective: 1000px;
+    -o-perspective: 1000px;
     
 }
 
@@ -509,6 +513,9 @@ h1.ml7.text-wrapper {
     height: 100%;
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
     transition: all .5s linear;
     -webkit-transition: all .5s linear;
     -moz-transition: all .5s linear;
@@ -532,20 +539,35 @@ h1.ml7.text-wrapper {
     border-radius: 7px !important;
     color: #49494e;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    
+    box-shadow: 9px 9px 12px 0px rgba(0,0,0,0.19);
     -webkit-box-shadow: 9px 9px 12px 0px rgba(0,0,0,0.19);
     -moz-box-shadow: 9px 9px 12px 0px rgba(0,0,0,0.19);
-    box-shadow: 9px 9px 12px 0px rgba(0,0,0,0.19);
+    -ms-box-shadow: 9px 9px 12px 0px rgba(0,0,0,0.19);
+    -o-box-shadow: 9px 9px 12px 0px rgba(0,0,0,0.19);
 }
   
   .face.back {
     display: block;
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
     padding: 10px;
     color: white;
     text-align: center;
     background-color: #aaa;
-  }
+}
   
   
 /* /////////////////////////////////// CONTACT //////////////////// */
@@ -617,7 +639,7 @@ h1.ml7.text-wrapper {
   /* ////////////////////////////////////////////// */
   /* ////////////////////////////////////////////// */
   /* ////////////////////////////////////////////// */
-  .flip-box {
+  /* .flip-box {
     width: 300px;
     height: 200px;
     border: 1px solid #f1f1f1;
@@ -653,11 +675,11 @@ h1.ml7.text-wrapper {
   
   .flip-box:hover .flip-box-inner {
     transform: rotateY(180deg);
-  }
+  } */
   
   /* ////////////////////////////////////////////// */
   /* ////////////////////////////////////////////// */
-  .flipCard {
+  /* .flipCard {
     -webkit-perspective: 800;
     -ms-perspective: 800;
     -moz-perspective: 800;
@@ -669,10 +691,10 @@ h1.ml7.text-wrapper {
   }
   .flipCard .card.flipped {
     transform:rotatey(-180deg);
-    -ms-transform:rotatey(-180deg); /* IE 9 */
-    -moz-transform:rotatey(-180deg); /* Firefox */
-    -webkit-transform:rotatey(-180deg); /* Safari and Chrome */
-    -o-transform:rotatey(-180deg); /* Opera */
+    -ms-transform:rotatey(-180deg);
+    -moz-transform:rotatey(-180deg); 
+    -webkit-transform:rotatey(-180deg);
+    -o-transform:rotatey(-180deg); 
   }
   .flipCard .card {
     width: 100%;
@@ -697,11 +719,11 @@ h1.ml7.text-wrapper {
     font-size: 3em;
     text-align: center;
     line-height: 200px;
-    backface-visibility: hidden;  /* W3C */
-    -webkit-backface-visibility: hidden; /* Safari & Chrome */
-    -moz-backface-visibility: hidden; /* Firefox */
-    -ms-backface-visibility: hidden; /* Internet Explorer */
-    -o-backface-visibility: hidden; /* Opera */
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden; 
        box-shadow: 0 0 10px rgba(0,0,0,0.5)
   
   }
@@ -720,12 +742,12 @@ h1.ml7.text-wrapper {
       cursor: pointer;
       
     transform:rotatey(-180deg);
-    -ms-transform:rotatey(-180deg); /* IE 9 */
-    -moz-transform:rotatey(-180deg); /* Firefox */
-    -webkit-transform:rotatey(-180deg); /* Safari and Chrome */
-    -o-transform:rotatey(-180deg); /* Opera */
+    -ms-transform:rotatey(-180deg); 
+    -moz-transform:rotatey(-180deg);
+    -webkit-transform:rotatey(-180deg);
+    -o-transform:rotatey(-180deg);
   
-  }
+  } */
 /* /////////////////////////////////////////////////////// MEDIA QUERY ///////////////////////////////////////////////////////// */
 @media (max-width: 123px) { 
     .navbar-header {
