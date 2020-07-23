@@ -705,7 +705,7 @@ h1.ml7.text-wrapper {
     z-index: 1;
     background: url(https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/59FRWBNOT5.jpg);
     background-size: cover;
-    color: white;
+    color: rgb(209, 22, 22);
     cursor: pointer;
   }
   .flipCard .card .back {
