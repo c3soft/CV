@@ -233,7 +233,7 @@ h1.ml7.text-wrapper {
 
 /* ////////////////////////////////////////////// SCHOOL /////////////////////////////////////////////////// */
 .bgimg-1 {
-    /* background-image: url('./img/school.jpeg'); */
+    background-image: url('./img/school.jpeg');
     background-position: center;
     width: 100%;
     min-height: 400px;
@@ -696,31 +696,31 @@ h1.ml7.text-wrapper {
         height: 3rem;
     }
     .bgimg-1 {
-        /* background-image: url('img/schoolm.jpg'); */
+        background-image: url('./img/schoolm.jpg');
         width: 100%;
         max-width: 575px;
         min-height: 400px;
     }
     .bgimg-2 {
-        background-image: url('img/routem.jpg');
+        background-image: url('./img/routem.jpg');
         width: 100%;
         min-height: 400px;
     }
     .bgimg-3 {
-        background-image: url('img/skillsm.jpg');
+        background-image: url('./img/skillsm.jpg');
 
         width: 100%;
         min-height: 400px;
     }
     .bgimg-4 {
-        background-image: url('img/contactm.jpg');
+        background-image: url('./img/contactm.jpg');
 
         width: 100%;
         min-height: 400px;
     }
 
     .bgimg-5 {
-        background-image: url('img/workm.jpg');
+        background-image: url('./img/workm.jpg');
 
         width: 100%;
         min-height: 400px;
