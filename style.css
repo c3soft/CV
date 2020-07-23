@@ -697,7 +697,8 @@ h1.ml7.text-wrapper {
     }
     .bgimg-1 {
         background-image: url('img/schoolm.jpg');
-        /* width: 100%; */
+        width: 100%;
+        max-width: 575px;
         min-height: 400px;
     }
     .bgimg-2 {
