@@ -753,3 +753,21 @@ h1.ml7.text-wrapper {
 
 }
 
+@media only screen and (width: 334px) and (height: 650px){
+    .bgimg-1 {
+        background-image: url('./img/routem.jpg');
+        /* width: 100%;
+        max-width: 575px;
+        min-height: 400px; */
+
+
+        background-position: center;
+        min-height: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        opacity: 0.5;
+    
+    }
+
+}
