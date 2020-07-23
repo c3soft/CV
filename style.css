@@ -238,7 +238,7 @@ h1.ml7.text-wrapper {
     width: 100%;
     min-height: 400px;
     background-size: cover;
-    background-repeat: no-repeat; 
+    /* background-repeat: no-repeat;  */
     background-attachment: fixed;
     opacity: 0.5;
 }
