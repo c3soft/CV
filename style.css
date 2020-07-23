@@ -704,7 +704,7 @@ h1.ml7.text-wrapper {
 
         background-position: center;
         min-height: 400px;
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         background-attachment: fixed;
         opacity: 0.5;
