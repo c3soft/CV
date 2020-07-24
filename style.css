@@ -838,12 +838,13 @@ h1.ml7.text-wrapper {
         height: 3rem;
     }
     .bgimg-1 {
-        background-image: url('./img/s.jpg');
+        background-image: url('./img/schoolm.jpg');
         min-height: 300px;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        width: 300px;
        /*  max-width: 575px;
         min-height: 400px; */
 
