@@ -12,8 +12,10 @@
 html{
     --color-fond: #222a35 !important;
     --logo: #eee;
-    --green: #24aa60;
+    /* --green: #24aa60; */
+    --green: #4ea575;
     --grey-title: #727272;
+
 }
 
 /* ////////////////////////////////////////////// NAV /////////////////////////////////////////////////// */
@@ -111,7 +113,7 @@ li a {
 /* ////////////////////////////////////////////// HOME /////////////////////////////////////////////////// */
 
 .home {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: var(--color-fond);
 }
@@ -836,29 +838,29 @@ h1.ml7.text-wrapper {
         height: 3rem;
     }
     .bgimg-1 {
-        background-image: url('./img/routem.jpg');
+        background-image: url('./img/schoolm.jpg');
+        min-height: 300px;
         /* width: 100%;
         max-width: 575px;
         min-height: 400px; */
 
-
+/* 
         background-position: center;
-        min-height: 400px;
         background-size: contain;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        opacity: 0.5;
+        opacity: 0.5; */
     
     }
     .bgimg-2 {
         background-image: url('./img/routem.jpg');
-        width: 100%;
+        /* width: 100%; */
         min-height: 400px;
     }
     .bgimg-3 {
         background-image: url('./img/skillsm.jpg');
 
-        width: 100%;
+        /* width: 100%; */
         min-height: 400px;
     }
     .bgimg-4 {

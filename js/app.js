@@ -66,7 +66,7 @@ $('.navbar-collapse a').click(function(){
 
 
 /* card flip */
-$(".flipCard").click(function(){
-  $(this).find(".card").toggleClass("flipped");
-  return false;
-});
+// $(".f1_container").click(function(){
+//   $(this).find(".f1_card").toggleClass("flipped");
+//   return false;
+// });
