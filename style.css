@@ -840,11 +840,8 @@ h1.ml7.text-wrapper {
     .bgimg-1 {
         background-image: url('./img/schoolm.jpg');
         min-height: 300px;
-        background-position: center;
-        background-size: cover;
-        -webkit-background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: scroll;
+        background-attachment: fixed !important;
+background-size: cover !important;
        /*  max-width: 575px;
         min-height: 400px; */
 
