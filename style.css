@@ -856,18 +856,21 @@ h1.ml7.text-wrapper {
         background-image: url('./img/routem.jpg');
         /* width: 100%; */
         min-height: 400px;
+        background-attachment: scroll;
     }
     .bgimg-3 {
         background-image: url('./img/skillsm.jpg');
 
         /* width: 100%; */
         min-height: 400px;
+        background-attachment: scroll;
     }
     .bgimg-4 {
         background-image: url('./img/contactm.jpg');
 
         width: 100%;
         min-height: 400px;
+        background-attachment: scroll;
     }
 
     .bgimg-5 {
@@ -875,6 +878,7 @@ h1.ml7.text-wrapper {
 
         width: 100%;
         min-height: 400px;
+        background-attachment: scroll;
     }
 }
 
